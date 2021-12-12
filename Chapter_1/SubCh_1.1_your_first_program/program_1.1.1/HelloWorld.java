@@ -1,3 +1,5 @@
+package com.aim2u;
+
 public class HelloWorld
 {
 	public static void main(String[] args){

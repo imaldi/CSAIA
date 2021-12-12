@@ -1,0 +1,21 @@
+# ignore all .txt files *.txt
+*.txt
+
+
+# but do track tes.txt, even though you're ignoring .a files above (sengaja nama file yg ga ad biar ga ke commit)
+!tes.txt
+
+# only ignore the TODO file in the current directory, not subdir/TODO 
+/TODO 
+
+# ignore all files in any directory named build 
+build/ 
+
+# ignore doc/notes.txt, but not doc/server/arch.txt 
+doc/*.txt 
+
+# ignore all .pdf files in the doc/ directory and any of its subdirectories
+doc/**/*.pdf
+
+
+
